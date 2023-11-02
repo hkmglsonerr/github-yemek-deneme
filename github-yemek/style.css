@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+.üst {
+  background-color: #ffffff;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  text-align: center;
+  font-size: 21px;
+}
+.üst-sol {
+  float: left;
+}
+.üst a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  padding: 20px 20px;
+  text-align: center;
+}
+.üst-sağ {
+  float: right;
+}
+.üst a:hover {
+  background-color: gray;
+  transition: 0.7s;
+}
+.orta img {
+  width: 1310px;
+  height: 700px;
+  background-color: whitesmoke;
+}
+.about img {
+  width: 600px;
+  height: 750px;
+}
+.about-yan {
+  text-align: center;
+  margin-left: 500px;
+  margin-top: -600px;
+  line-height: 3;
+}
+hr {
+  margin-right: 400px;
+}
+.our img {
+  float: right;
+  height: 400px;
+  width: 600px;
+}
+.our-yan {
+  margin-left: 80px;
+}
+.our-yan h1 {
+  margin-left: 100px;
+  text-align: center;
+}
+.contact {
+  margin-left: 70px;
+}
+#text {
+  width: 800px;
+  height: 50px;
+}
+.text-buton {
+  height: 50px;
+  width: 150px;
+}
+.text-buton:hover {
+  background-color: gray;
+}
+footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 50px;
+  margin-top: 50px;
+}
